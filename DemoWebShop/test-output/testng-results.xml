@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31207" started-at="2021-03-14T22:37:28 IST" finished-at="2021-03-14T22:37:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31207" started-at="2021-03-14T22:37:28 IST" finished-at="2021-03-14T22:37:59 IST">
+      <class name="eCommerceLive.BookOrderTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:eCommerceLive.BookOrderTest@5d76b067]" name="openBrowser" is-config="true" duration-ms="3019" started-at="2021-03-14T22:37:28 IST" finished-at="2021-03-14T22:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:eCommerceLive.BookOrderTest@5d76b067]" name="login" is-config="true" duration-ms="8618" started-at="2021-03-14T22:37:31 IST" finished-at="2021-03-14T22:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyUserId()[pri:0, instance:eCommerceLive.BookOrderTest@5d76b067]" name="verifyUserId" duration-ms="17583" started-at="2021-03-14T22:37:40 IST" finished-at="2021-03-14T22:37:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserId -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:eCommerceLive.BookOrderTest@5d76b067]" name="logOut" is-config="true" duration-ms="1109" started-at="2021-03-14T22:37:57 IST" finished-at="2021-03-14T22:37:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:eCommerceLive.BookOrderTest@5d76b067]" name="closeBrowser" is-config="true" duration-ms="761" started-at="2021-03-14T22:37:58 IST" finished-at="2021-03-14T22:37:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- eCommerceLive.BookOrderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

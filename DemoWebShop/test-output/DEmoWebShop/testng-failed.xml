@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DEmoWebShop]">
+  <test thread-count="5" name="BookOrderTest(failed)">
+    <classes>
+      <class name="eCommerceLive.BookOrderTest">
+        <methods>
+          <include name="PaymentMethod"/>
+          <include name="setup"/>
+          <include name="AddCart"/>
+          <include name="ValidateOrderMsg"/>
+          <include name="BillingAddress"/>
+          <include name="SelectBook"/>
+          <include name="ShippingAddress"/>
+          <include name="LogOut"/>
+          <include name="ValidateShoppingCartMsg"/>
+          <include name="CloseBrowser"/>
+          <include name="login"/>
+          <include name="ShippingMethod"/>
+          <include name="PaymentInfo"/>
+          <include name="verifyUserId"/>
+          <include name="GetPrice"/>
+        </methods>
+      </class> <!-- eCommerceLive.BookOrderTest -->
+    </classes>
+  </test> <!-- BookOrderTest(failed) -->
+</suite> <!-- Failed suite [DEmoWebShop] -->
